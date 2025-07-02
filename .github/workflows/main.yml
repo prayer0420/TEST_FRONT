@@ -21,8 +21,9 @@ jobs:
 
       - name: S3 기존 파일들 전체 삭제 후 새로 업로드
         run: |
-	        aws s3 rm --recursive s3://kostatest-web-page
-		      aws s3 cp ./ s3://kostatest-web-page/ --recursive
+          aws s3 rm s3://kostatest-web-page --recursive
+          aws s3 cp ./ s3://kostatest-web-page/ --recursive
 
       - name: Cloudfront 캐시 무효화
-        run: aws cloudfront create-invalidation --distribution-id E3FOIJ85AG328X --paths "/*"
+        run: |
+          aws cloudfront create-invalidation --distribution-id E3FOIJ85AG328X --paths "/*"
