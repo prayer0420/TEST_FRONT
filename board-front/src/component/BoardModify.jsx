@@ -2,7 +2,7 @@ import { url } from "./config";
 import { useState, useEffect } from "react"
 import { useParams, useNavigate } from "react-router";
 import axios from "axios";
-import './BoardModify.css'
+import './boardModify.css'
 
 
 export default function BoardModify(){
