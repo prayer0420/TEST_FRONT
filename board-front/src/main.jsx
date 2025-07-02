@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import App from './App.jsx';
 import Header from './component/Header';
 import Login from './component/Login.jsx';
-import Join from './component/join.jsx';
+import Join from './component/Join.jsx';
 import BoardList from './component/BoardList.jsx';
 import BoardDetail from './component/BoardDetail.jsx';
 import BoardWrite from './component/BoardWrite.jsx';
