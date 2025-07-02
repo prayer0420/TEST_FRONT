@@ -1,4 +1,0 @@
-INDEX VERSION 1.131+C:\pgd\test-front\react-workspace\.metadata\.plugins\org.eclipse.jdt.core
-3413725848.index
-1865797976.index
-1894724024.index
