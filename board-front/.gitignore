@@ -21,3 +21,15 @@ node_modules
 *.njsproj
 *.sln
 *.sw?
+
+# 개발 전용 파일/폴더 무시
+node_modules
+src/
+public/
+.vscode/
+.gitignore
+README.md
+.project
+.settings/
+.gradle/
+
