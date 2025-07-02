@@ -1,0 +1,4 @@
+GitRepositoriesView.GitDirectories=C\:\\pgd\\test-back\\.git;C\:\\pgd\\test-front\\.git;
+GitRepositoriesView.GitDirectories.relative=C\:\\pgd\\test-back\\.git;C\:\\pgd\\test-front\\.git;
+core_autoIgnoreDerivedResources=false
+eclipse.preferences.version=1
