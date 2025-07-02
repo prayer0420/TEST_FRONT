@@ -1,0 +1,29 @@
+.modify-form {
+  width: 800px;
+  margin: auto;
+}
+
+.modify-form table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.modify-form th,
+.modify-form td {
+  padding: 10px;
+  text-align: left;
+}
+
+.modify-form input[type="text"],
+.modify-form textarea {
+  width: 95%;
+  padding: 6px;
+  font-size: 14px;
+}
+
+.modify-form input[type="submit"],
+.modify-form button {
+  padding: 8px 12px;
+  font-size: 14px;
+  cursor: pointer;
+}
